@@ -33,7 +33,7 @@ window.addEventListener("load", () =>{
 
 function getUsers(){
     let html=""
-    fetch("https://bscs3a-5.onrender.com/api/members" , {mode: "cors"}) //online
+    fetch("https://bscs3a-6.onrender.com/api/members" , {mode: "cors"}) //online
    // fetch("https://bscs3a-3.onrender.com" , {mode: "cors"}) 
     .then((response) =>{
         console.log(response)
